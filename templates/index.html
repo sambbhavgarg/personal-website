@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="static/css/johndoe.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="./components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <!-- <a href="./components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a> -->
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
@@ -23,7 +23,7 @@
             <div class="header-content">
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h1 class="header-title">Sambbhav Garg</h1>
-                <h6 class="header-mono" >Data Scientist | AI Engineer</h6>
+                <h6 class="header-mono" >Full Stack AI Engineer</h6>
                 <a href="static/docs/sambbhav-garg-resume.pdf" class="btn btn-primary btn-rounded" download="Sambbhav_Garg_Resume.pdf">
                     <i class="ti-printer pr-2"></i>Print Resume
                 </a>
@@ -44,22 +44,22 @@
                         <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resume</a>
+                        <a href="#skills" class="nav-link">Skills</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
                     <img src="static/imgs/sambbhav_professional.jpg" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">Sambbhav Garg</h5>
-                        <div class="brand-subtitle">Data Scientist | AI Engineer</div>
+                        <div class="brand-subtitle">Full Stack AI Engineer</div>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#roles" class="nav-link">Roles</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
+                        <a href="#education" class="nav-link">Education</a>
                     </li>
                     <li class="nav-item last-item">
                         <a href="#contact" class="nav-link">Contact</a>
@@ -68,127 +68,152 @@
             </div>
         </div>
     </nav>
+    
     <div class="container-fluid">
         <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Who am I ?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3">A Data Scientist based out of Bengaluru, India</h5>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+            <div class="col-lg-4 about-card" id="about-who-am-i">
+                <script src="static/js/load-content.js"></script>
             </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li><span>Birthdate</span> : January 2, 1999</li>
-                    <li><span>Email</span> : sambbhavgarg [at] gmail [dot] com (registered email coming soon!)</li>
-                    <li><span>Phone</span> : + (91) 836-XXX-XX31</li>
-                    <li><span>Address</span> :  Bengaluru, India</li>
-                </ul>
-                <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="https://twitter.com/SambbhavGarg"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://www.instagram.com/sambbhavgarg"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://github.com/SG2199"><i class="ti-github" aria-hidden="true"></i></a></li>
-                </ul>  
+            <div class="col-lg-4 about-card" id="about-personal-info">
+                <script src="static/js/load-content.js"></script>
             </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Statistical Analysis & Modeling</h6>
-                        <p class="subtitle"> exercitat Repellendus,  corrupt.</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>AI System Design</h6>
-                        <p class="subtitle">Lorem ipsum dolor sit consectetur.</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>End-to-end Deployment of AI Systems</h6>
-                        <p class="subtitle">voluptate commodi illo voluptatib.</p>
-                        <hr>
-                    </div>
-                </div>
+            <div class="col-lg-4 about-card" id="about-my-expertise">
+                <script src="static/js/load-content.js"></script>
             </div>
         </div>
     </div>
 
-    <!--Resume Section-->
-    <section class="section" id="resume">
+    <!--Skills Section-->
+    <section class="section" id="skills">
         <div class="container">
-            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <h2 class="mb-5"><span class="text-danger">My</span> Skills</h2>
             <div class="row">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-3">
                     <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Expertise</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">Dec '21 - Present</h6>
-                            <P>Data Scientist - Koo India</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <h6 class="title text-danger">Development</h6>
+                            <P class="subtitle">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>SQL</li>
+                                    <li>Docker</li>
+                                    <li>Flask/Django/BentoML</li>
+                                    <li>Apache Spark/PySpark</li>
+                                </ul>
                             <hr>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-3">
                     <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Education</h4>
-                                <span class="line"></span>  
-                            </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">Tools</h6>
+                            <P class="subtitle">
+                                <ul>
+                                    <li>Prompt Engineering</li>
+                                    <li>Git</li>
+                                    <li>Metabase</li>
+                                    <li>Prometheus</li>
+                                    <li>Elasticsearch</li>
+                                    <li>Grafana</li>
+                                </ul>
+                            <hr>
                         </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">Data Understanding & Modeling</h6>
+                            <P class="subtitle">
+                                <ul>
+                                    <li>Exploratory Data Analytics, 
+                                    <li>Data Visualization</li>
+                                    <li>Machine Learning</li>
+                                    <li>Deep Learning/NLP</li>
+                                </ul>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">Cloud Services</h6>
+                            <P class="subtitle">
+                                <ul>
+                                    <li>AWS</li>
+                                    <li>Google Cloud Platform</li>
+                                    <li>Azure</li>
+                                </ul>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--Roles Section-->
+    <section class="section" id="roles">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Roles</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">Feb '24 - Present</h6>
+                            <P>ML Engineer II - Dubverse.ai</P>
+                            <P class="subtitle">
+                                <ul>
+                                    <li>Developed and optimised a Langchain-like LLM-first translation / AI-assisted text-editing module boosting acceptance of machine-generated translations by 30% and driving down the need for editing translations by 40%</li>
+                                    <li>Leveraged vector databases and RAG in LLMs to personalise translations of newly created projects</li>
+                                    <li>Developed a feature to automatically generate consumable content such as titles, descriptions, hashtags, and social media captions from user projects using LLMs</li>
+                                    <li>Drafted a detailed translations dashboard giving visibility into how translations are being used - understanding language usage, translation editing, acceptance / rejection of AI-assisted editing, time spent on editing projects - generating key insights for planning new features and planning a roadmap</li>
+                                    <li>Published a blog on the current SOTA LLM and encoder-decoder models evaluating and benchmarking the models for the translation task</li>
+                                </ul>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">Dec '21 - Jan '24</h6>
+                            <P>ML Engineer I - Koo India</P>
+                            <P class="subtitle">
+                                <ul>
+                                    <li>Led the development of the multilingual 'Koo Explore' feature, increasing user engagement by over 25% through personalized trending topics and hashtags</li>
+                                    <li>Achieved significant cost savings by optimizing language translation processes using IndicTrans, reducing expenses by over USD 100K annually for 5+ Indic languages while maintaining 80ms latency and 99.99% uptime</li>
+                                    <li>Successfully migrated over 10 critical systems from AWS to GCP, enhancing system efficiency and reliability</li>
+                                    <li>Enhanced Named Entity Recognition (NER) accuracy by approximately 30%, streamlining content enrichment processes</li>
+                                    <li>Pioneered the expansion of the topics feature to over 10 Indic languages, setting a new standard in the microblogging industry</li>
+                                    <li>Automated named-entity discovery and incorporation, reducing process time from 1.5 days to less than half a day, significantly increasing content timeliness</li>
+                                    <li>Contributed to system design reviews, authored articles for the Koo technology blog, and advocated for best software practices</P></li>
+                                </ul>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Education Section-->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Education</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-12">
+                    <div class="card">
                         <div class="card-body">
                             <h6 class="title text-danger">2017 - 2021</h6>
                             <P>B.Tech. Computer Science</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error corrupti recusandae obcaecati odit repellat ducimus cum, minus tempora aperiam at.</P>
+                            <P class="subtitle">B.Tech. Computer Science and Engineering, specialization in Business Analytics and Optimization</P>
                             <hr>
-                            <h6 class="title text-danger">2005 - 2017</h6>
+                            <h6 class="title text-danger">2003 - 2017</h6>
                             <P>High School - AISSCE</P>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
+                            <P class="subtitle">All India Senior School Certificate Examination</P>
                             
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Skills</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                            <h6>Python</h6>
-                            <h6>Docker</h6>
-                            <h6>PostgreSQL</h6>
-                            <h6>Statistics</h6>
-                        </div>
-                    </div>
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Languages</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                            <h6>English</h6>
-                            <h6>Hindi - Native Proficiency</h6>
                         </div>
                     </div>
                 </div>
@@ -733,8 +758,8 @@
     <!-- Isotope  -->
     <script src="static/vendors/isotope/isotope.pkgd.js"></script>
     
-    <!-- Google mpas -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+    <!-- Google maps -->
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script> -->
 
     <!-- JohnDoe js -->
     <script src="static/js/johndoe.js"></script>

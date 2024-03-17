@@ -1,0 +1,23 @@
+{
+    "section_who_am_i": {
+        "title": "Who am I?",
+        "subtitle": "A Data Scientist based out of India",
+        "text": "I'm passionate about leveraging data to uncover insights, drive decisions, and innovate solutions. <br><br>With a foundation in data science and artificial intelligence, I specialize in transforming complex datasets into actionable strategies."
+    },
+
+    "section_personal_info": {
+        "Birthdate" : "January 2, 1999",
+        "Email" : "sambbhavgarg [at] gmail [dot] com",
+        "Phone" : "+ (91) 836-XXX-XX31",
+        "Address" : "New Delhi, India",
+        "twitter": "https://twitter.com/sambbhavgarg",
+        "instagram": "https://www.instagram.com/sambbhavgarg",
+        "github": "https://github.com/sambbhavgarg"
+    },
+
+    "section_my_expertise": {
+        "stats_analysis_modeling": "Delve into the core of data science with my advanced statistical modeling and analysis skills. Leveraging statistical theories and methodologies, I extract meaningful insights from complex data sets, guiding data-driven decision-making processes. My work encompasses predictive modeling, hypothesis testing, and the application of various statistical tools to solve real-world problems.",
+        "system_design": "My approach to system design integrates scalability, reliability, and performance. I architect robust systems that cater to evolving business needs, focusing on efficient data flow, modular components, and resilience. Through thoughtful design, I ensure systems not only meet current requirements but are also adaptable for future challenges.",
+        "e2e_deployment": "Bringing AI concepts to life, I specialize in end-to-end AI system deployment. From ideation and data preprocessing to model training and deployment, my holistic approach ensures the seamless integration of AI technologies into operational systems. My projects reflect a commitment to innovation, operational excellence, and delivering tangible business value through AI."
+    }
+}

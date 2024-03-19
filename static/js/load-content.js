@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <li><span>Address</span> :  ${data.section_personal_info.Address}</li>
             </ul>
             <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link" href="${data.section_personal_info.linkedin}"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link" href="${data.section_personal_info.twitter}"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link" href="${data.section_personal_info.instagram}"><i class="ti-instagram" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link" href="${data.section_personal_info.github}"><i class="ti-github" aria-hidden="true"></i></a></li>
             </ul>
         `;

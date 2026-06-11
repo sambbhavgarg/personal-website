@@ -1,5 +1,5 @@
-@charset "UTF-8";
 /*!
+@charset "UTF-8";
 =========================================================
 * JohnDoe Landing page
 =========================================================
@@ -11600,7 +11600,7 @@ pre .code {
 }
 
 .section {
-  padding: 20px 0;
+  padding-top: 20px 0;
 }
 
 .section.bg-custom-gray {

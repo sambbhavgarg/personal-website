@@ -1,6 +1,6 @@
 import datetime
 
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 
@@ -15,6 +15,16 @@ def root():
     #                ]
 
     return render_template('index.html')#, times=dummy_times)
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory('static/icons', 'favicon.ico')
+
+
+@app.route('/apple-touch-icon.png')
+def apple_touch_icon():
+    return send_from_directory('static/icons', 'apple-touch-icon.png')
+
 
 # @app.route('/components')
 # def components():

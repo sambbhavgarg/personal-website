@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sambbhav Garg</title>
+  <meta name="description" content="Sambbhav Garg is an ML engineer who builds and runs machine-learning systems in production.">
+  <meta property="og:title" content="Sambbhav Garg">
+  <meta property="og:description" content="I build and run machine-learning systems in production.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sambbhavgarg.in/">
+  <meta property="og:image" content="https://sambbhavgarg.in/static/imgs/sambbhav_professional.jpg">
+  <link rel="icon" href="/static/imgs/avatar.jpg">
+  <link rel="stylesheet" href="/static/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-name" href="/">Sambbhav Garg</a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <img class="portrait" src="/static/imgs/sambbhav-garg-professional.jpeg" width="112" height="112" alt="Sambbhav Garg">
+      <h1>I build and run machine-learning systems in production.</h1>
+    </section>
+
+    <p>I'm an ML engineer. I work on the part after the model works: serving it, scaling it, keeping it cheap and fast, and wiring it into products people use.</p>
+
+    <p>Right now I'm a Forward Deployed Engineer at <strong>Avataar.ai</strong>, building agentic pipelines for enterprise customers. Before that I ran MLOps for <a href="https://www.pixelbin.io">PixelBin.io</a> at <strong>Jio Fynd</strong>, where I owned 50+ ML microservices serving over 50 million requests a day, and I led Indic-language NLP at <strong>Koo</strong>.</p>
+
+    <p>I studied computer science at UPES, Dehradun. I like systems that are boring to operate, and I like measuring things before and after I change them.</p>
+
+    <h2 id="work">Things I've built</h2>
+    <ul class="entries">
+      <li>
+        <h3>A model-serving platform for PixelBin.io</h3>
+        <p>An internal SDK on Ray Serve with model-as-a-service, batch prediction jobs and a priority queue with exactly-once delivery. It runs on Kubernetes with GPU worker pools and autoscaling. Moving to hardware-aware, optimized serving cut inference cost by 80% and latency by 90%.</p>
+      </li>
+      <li>
+        <h3>Image AI services</h3>
+        <p>Production services for background removal, watermark detection and removal, super-resolution (2× to 8×), shadow generation, inpainting and background generation.</p>
+      </li>
+      <li>
+        <h3>Indic translation and entity recognition at Koo</h3>
+        <p>An in-house transformer translation system for 5+ Indic languages that saved about $100K a year in external translation costs, and fine-tuned multilingual models that lifted entity-recognition accuracy by about 30%. I also grew the Topics feature to 10+ Indic languages.</p>
+      </li>
+      <li>
+        <h3>An agentic pipeline for building-model data</h3>
+        <p>A pipeline that turns over a million building-model records into a priced bill of quantities. I cut its run time 12× (150 to 12.5 minutes) and its peak memory by 76%.</p>
+      </li>
+    </ul>
+
+    <h2 id="experience">Experience</h2>
+    <ul class="timeline">
+      <li><span class="when">2026 – now</span><span><strong>Avataar.ai</strong> · Forward Deployed Engineer, ML and customer engineering</span></li>
+      <li><span class="when">2024 – 2026</span><span><strong>Jio Fynd</strong> · Machine Learning Engineer, PixelBin.io</span></li>
+      <li><span class="when">2021 – 2024</span><span><strong>Koo</strong> · Machine Learning Engineer, NLP</span></li>
+      <li><span class="when">2017 – 2021</span><span><strong>UPES, Dehradun</strong> · B.Tech. Computer Science and Engineering, Business Analytics and Optimization</span></li>
+    </ul>
+
+    <h2>Paper</h2>
+    <p>Schlegelmilch, B. B., Sharma, K. and Garg, S. (2021). <a href="https://doi.org/10.1108/IMR-06-2021-0194">Employing Machine Learning for Capturing COVID-19 Consumer Sentiments from Six Countries: A Methodological Illustration.</a> <em>International Marketing Review.</em></p>
+
+    <h2 id="contact">Say hi</h2>
+    <p>If you're working on something in production ML or applied AI, I'd like to hear about it. Write to <a href="mailto:hello@sambbhavgarg.in">hello@sambbhavgarg.in</a>.</p>
+  </main>
+
+  <footer class="site-footer">
+    <ul>
+      <li><a href="mailto:hello@sambbhavgarg.in">Email</a></li>
+      <li><a href="https://github.com/sambbhavgarg" rel="me">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/sambbhavgarg" rel="me">LinkedIn</a></li>
+      <li><a href="https://twitter.com/SambbhavGarg" rel="me">Twitter</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
